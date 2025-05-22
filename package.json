@@ -1,0 +1,90 @@
+{
+  "name": "ieduchina",
+  "version": "1.0.0",
+  "description": "国际教育网官网",
+  "config": {
+    "project": "index,wap"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack",
+    "lint": "eslint . --ext .ts",
+    "fix": "eslint . --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "py": "cd ./mySpider/mySpider/spiders/ && scrapy crawl itcast"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeup.aliyun.com/6257950511fc0f0c9e28d9c3/ieduchina_pc"
+  },
+  "keywords": [],
+  "author": "jiabinleo@126.com",
+  "bugs": {
+    "url": "https://devops.aliyun.com/workbench?orgId=6257950511fc0f0c9e28d9c3"
+  },
+  "issues": {
+    "url": "https://gitee.com/jiabinleo/ieduchina/issues"
+  },
+  "homepage": "https://codeup.aliyun.com/6257950511fc0f0c9e28d9c3/ieduchina_pc",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.24.0",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.24.0",
+    "@types/jquery": "^3.5.29",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "autoprefixer": "^10.4.18",
+    "babel-loader": "^8.3.0",
+    "body-parser": "^1.20.2",
+    "bufferutil": "^4.0.8",
+    "cheerio": "1.0.0-rc.12",
+    "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^2.6.12",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.10.0",
+    "ejs": "^3.1.9",
+    "ejs-compiled-loader": "^3.1.0",
+    "ejs-loader": "^0.5.0",
+    "eslint": "^8.57.0",
+    "express": "^4.18.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "less": "^4.2.0",
+    "less-loader": "^11.1.4",
+    "mini-css-extract-plugin": "^2.8.1",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^7.3.4",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^10.0.8",
+    "sass": "^1.89.0",
+    "sass-loader": "^16.0.5",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "style-loader": "^3.3.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "ts-loader": "^9.5.1",
+    "typescript": "^4.9.5",
+    "utf-8-validate": "^5.0.10",
+    "webpack": "^5.90.3",
+    "webpack-bundle-analyzer": "^4.10.1",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ],
+  "dependencies": {
+    "axios": "^1.6.8",
+    "babel-eslint": "^10.1.0",
+    "jquery": "^3.7.1",
+    "node-xlsx": "^0.24.0"
+  }
+}

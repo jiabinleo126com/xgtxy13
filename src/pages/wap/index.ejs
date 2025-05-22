@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta content="no-transform" http-equiv="Cache-Control">
+  <meta content="no-siteapp" http-equiv="Cache-Control">
+  <meta content="no-cache" http-equiv="Cache-Control">
+  <meta content="form-action 'self' *.ieduchina.com;" http-equiv="Content-Security-Policy">
+  <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    name="viewport">
+  <meta content="//m.ieduchina.com/statics/w/img/logol.png?t=2808c713" itemprop="image">
+  <meta content="webkit" name="renderer">
+  <link href="//m.ieduchina.com/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <title>香港教育文化之旅第12期-香港探校 - 国际教育网</title>
+  <meta content="香港探校" name="keywords">
+  <meta
+    content="【香港教育文化之旅】第12期在1月21日落下帷幕，为参访家庭带来了一场难忘的教育探索之旅。在教育资源多元且优质的当下，香港的顶尖中学以其独特的教育理念和卓越的教学成果吸引着众多家长和学生的目光。为了让大家深入了解香港的中学教育，国际教育网精心策划并圆满完成了这次独家定制的香港名校探访团活动。"
+    name="description">
+  <meta property="og:description"
+    content="【香港教育文化之旅】第12期在1月21日落下帷幕，为参访家庭带来了一场难忘的教育探索之旅。在教育资源多元且优质的当下，香港的顶尖中学以其独特的教育理念和卓越的教学成果吸引着众多家长和学生的目光。为了让大家深入了解香港的中学教育，国际教育网精心策划并圆满完成了这次独家定制的香港名校探访团活动。">
+  <link rel="apple-touch-icon" href="//m.ieduchina.com/topic/2025/hk12/images/dd2d5130.jpg">
+  <link href="//m.ieduchina.com/statics/css/swiper.min.css" rel="stylesheet">
+  <link href="//web.sdk.qcloud.com/player/tcplayer/release/v4.5.4/tcplayer.min.css" rel="stylesheet">
+  <script>
+    ! function () {
+      var t = document.documentElement.clientWidth,
+        e = document.createElement("style");
+      /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent) ? e.innerHTML = "html{font-size: " + t / 16 + "px !important;}" : e.innerHTML = "html{font-size: 46.875px !important;width:750px;margin:0 auto;}", document.head.appendChild(e)
+    }()
+  </script>
+  <script type="text/javascript">
+    if (!(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+      // window.location.href = "//www.ieduchina.com/topic/2025/hk12/";
+      // window.location.href = "/";
+    }
+  </script>
+</head>
+<%const {huigu,liangdian,xingcheng1,xingcheng2,school,jingcai}=require(`../index/mock.json`)%>
+<body>
+  <!-- online 香港访校营第12期手机端 2025-1-24 10:48:24-->
+  <img alt="" src="https://m.ieduchina.com/topic/2025/hk12/images/dd2d5130.jpg" id="share" style="display:none" img="<%=require(`../index/images/share.jpg`)%>">
+  <%=require(`./components/top/index.ejs`)()%>
+  <header><img alt="香港教育文化之旅" src="<%=require(`./images/phone.png`)%>" height="211" width="375"></header>
+  <section>
+    <h3 class="title" en="Active review">探校营回顾</h3>
+    <div class="text">
+      <%huigu.text.forEach((item)=>{%>
+        <P><%=item%></P>
+      <%})%>
+    </div>
+  </section>
+  <section>
+    <div class="ld">
+      <h3 class="title" en="characteristic">亮点特色</h3>
+      <ul>
+        <%liangdian.forEach((item,index)=>{%>
+          <li><span><%=index+1%></span><%=item%></li>
+        <%})%>
+      </ul>
+    </div>
+  </section>
+  <section class="gray">
+    <div class="xc">
+      <h3 class="title" en="Daily itinerary">每日行程</h3>
+      <ul>
+        <%xingcheng1.forEach((day,index)=>{%>
+          <li>
+            <div class="title">
+              <div class="date-card">
+                <div class="card">
+                  <p>Day</p>
+                  <p>0<%=index+1%></p>
+                </div>
+              </div>
+              <p><%=day.date[0]%>年<%=day.date[1]%>月<%=day.date[2]%>日访校行程安排</p>
+              <button><span><i class="o">展开</i><i class="c">关闭</i></span><img alt="" src="<%=require(`../index/images/2e16f469.png`)%>"></button>
+            </div>
+            <div class="list">
+              <div class="wrap">
+                <%day.list.forEach((item)=>{%>
+                  <div class="con">
+                    <div class="time"><%=item.time%></div>
+                    <div class="desc">
+                      <%if(item.title_link){%>
+                        <p class="bold"><a href="<%=item.title_link%>?tgform=香港教育文化之旅"
+                            target="_blank"><%=item.title%><span>查看更多<img alt=""
+                                src="<%=require(`../index/images/2e16f469.png`)%>"></span></a></p>
+                      <%}else{%>
+                        <p class="bold"><%=item.title%></p>  
+                      <%}%>
+                      <%if(item.desc){%>
+                        <%item.desc.forEach((desc)=>{%>
+                          <p><%=desc%></p>
+                        <%})%>
+                      <%}else{%>
+                        <p></p> 
+                      <%}%>
+                      <%if(item.images){%>
+                        <div class="image">
+                          <%item.images.forEach((image)=>{%>
+                            <img preview="<%=require(`../index/images/${image.max}`)%>" src="<%=require(`../index/images/${image.min}`)%>" alt="">
+                          <%})%>
+                      </div>
+                      <%}%>
+                    </div>
+                  </div>
+                <%})%>
+              </div>
+            </div>
+          </li>
+        <%})%>
+      </ul>
+    </div>
+    <div class="xc">
+      <h3 class="title" en="Daily itinerary">每日行程</h3>
+      <ul>
+        <%xingcheng2.forEach((day,index)=>{%>
+          <li>
+            <div class="title">
+              <div class="date-card">
+                <div class="card">
+                  <p>Day</p>
+                  <p>0<%=index+1%></p>
+                </div>
+              </div>
+              <p><%=day.date[0]%>年<%=day.date[1]%>月<%=day.date[2]%>日访校行程安排</p>
+              <button><span><i class="o">展开</i><i class="c">关闭</i></span><img alt="" src="<%=require(`../index/images/2e16f469.png`)%>"></button>
+            </div>
+            <div class="list">
+              <div class="wrap">
+                <%day.list.forEach((item)=>{%>
+                  <div class="con">
+                    <div class="time"><%=item.time%></div>
+                    <div class="desc">
+                      <%if(item.title_link){%>
+                        <p class="bold"><a href="<%=item.title_link%>?tgform=香港教育文化之旅"
+                            target="_blank"><%=item.title%><span>查看更多<img alt=""
+                                src="<%=require(`../index/images/2e16f469.png`)%>"></span></a></p>
+                      <%}else{%>
+                        <p class="bold"><%=item.title%></p>  
+                      <%}%>
+                      <%if(item.desc){%>
+                        <%item.desc.forEach((desc)=>{%>
+                          <p><%=desc%></p>
+                        <%})%>
+                      <%}else{%>
+                        <p></p> 
+                      <%}%>
+                      <%if(item.images){%>
+                        <div class="image">
+                          <%item.images.forEach((image)=>{%>
+                            <img preview="<%=require(`../index/images/${image.max}`)%>" src="<%=require(`../index/images/${image.min}`)%>" alt="">
+                          <%})%>
+                      </div>
+                      <%}%>
+                    </div>
+                  </div>
+                <%})%>
+              </div>
+            </div>
+          </li>
+        <%})%>
+      </ul>
+    </div>
+  </section>
+  <section class="green">
+    <div class="yx">
+      <h3 class="title" en="SCHOOLS">参与院校</h3>
+      <ul>
+        <ul>
+          <%school.forEach((item)=>{%>
+            <%if(item.islink){%>
+              <li>
+                <a href="<%=item.link%>?tgform=香港教育文化之旅" target="_blank">
+                  <img src="<%=item.image%>" alt="<%=item.name%>">
+                  <p><%=item.name%></p>
+                </a>
+              </li>    
+            <%}else{%>
+              <li>
+                <a href="<%=item.link%>?tgform=香港教育文化之旅" target="_blank">
+                  <img src="<%=require(`../index/images/${item.image}`)%>" alt="<%=item.name%>">
+                  <p><%=item.name%></p>
+                </a>
+              </li>   
+            <%}%>
+          <%})%>
+        </ul>
+      </ul>
+    </div>
+  </section>
+  <section class="form_up">
+    <div class="con">
+      <form action="/index.php?m=college&c=index&a=collegereg&dopost=reg" method="POST">
+        <p>下一期探校预约报名</p><input name="name" type="text" placeholder="学生姓名"> <input name="mobile" type="text"
+          placeholder="您的手机"><select name="grade">
+          <option value="" style="display:none">学生即将入读年级</option>
+          <option value="幼儿园">幼儿园</option>
+          <option value="一年级">一年级</option>
+          <option value="二年级">二年级</option>
+          <option value="三年级">三年级</option>
+          <option value="四年级">四年级</option>
+          <option value="五年级">五年级</option>
+          <option value="六年级">六年级</option>
+          <option value="七年级">七年级</option>
+          <option value="八年级">八年级</option>
+          <option value="九年级">九年级</option>
+          <option value="十年级">十年级</option>
+          <option value="十一年级">十一年级</option>
+          <option value="十二年级">十二年级</option>
+          <option value="大一">大一</option>
+          <option value="大二">大二</option>
+          <option value="大三">大三</option>
+          <option value="大四">大四</option>
+          <option value="其他">其他</option>
+        </select><input name="want_school" type="text" placeholder="意向学校"> <input name="email" type="text"
+          placeholder="您的邮箱"> <input name="mark" type="hidden" value="香港教育文化之旅第12期_国际教育网WAP版_Linda"><button
+          class="submit">立即预约</button>
+      </form>
+      <div class="close"><img alt="" src="//m.ieduchina.com/topic/2024/hk7/images/d978f273.png?t=2808c713"></div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright@<span id="fullyear"></span>，国际教育网 版权所有</p>
+    <p>粤ICP备2021064228号 & 粤公网安备44030502002588号</p>
+  </footer>
+  <div class="mask" id="mask"><img alt=""
+      src="//m.ieduchina.com/topic/2024/hk7/images/d978f273.png?t=2808c713"><video height="405" id="masksp"
+      playsinline poster="" preload="auto" value="" webkit-playsinline width="375"></video></div>
+  <div class="footer-nav">
+    <ul>
+      <li><img alt="媒体合作" src="//m.ieduchina.com/topic/2024/hk7/images/8d327893.png?t=2808c713"
+          img="//www.ieduchina.com/statics/hui.jpg" tel="181-6570-6113">
+        <p>媒体合作</p>
+      </li>
+      <li><img alt="活动预约" src="//m.ieduchina.com/topic/2024/hk7/images/bc4f5a55.png?t=2808c713"
+          img="//m.ieduchina.com/topic/2024/hk7/images/1b8cc5dd.png?t=2808c713">
+        <p>下一期报名</p>
+      </li>
+      <li><img alt="香港升学咨询" src="//m.ieduchina.com/topic/2024/hk7/images/5ee14fdf.png?t=2808c713"
+          img="//m.ieduchina.com/topic/2024/hk7/images/d7b7dbc9.jpg" tel="189-3807-4754">
+        <p>家长咨询</p>
+      </li>
+    </ul>
+  </div>
+  <div class="concat">
+    <div class="box">
+      <div class="img">
+        <h4></h4><img alt="" src="">
+        <p></p><a href=""></a>
+      </div><img alt="" src="//m.ieduchina.com/topic/2024/hk7/images/d978f273.png?t=2808c713">
+    </div>
+  </div>
+  <div class="preview_mask">
+    <div class="preview_swiper">
+      <div class="swiper-wrapper"></div>
+      <div class="swiper-pagination1"></div>
+    </div>
+  </div>
+  <div class="rightfixed"><img alt="" src="//m.ieduchina.com/topic/2025/hkyy10/images/4332d74a.png"></div>
+  <script src="//m.ieduchina.com/statics/js/jquery-3.7.1.min.js"></script>
+  <script src="//m.ieduchina.com/statics/w/js/swiper.min.js"></script>
+  <script src="//m.ieduchina.com/statics/users/js/layer.js"></script>
+  <script src="//cloudcache.tencentcs.com/qcloud/video/dist/tcadapter.1.0.0.min.js"></script>
+  <script src="//web.sdk.qcloud.com/player/tcplayer/release/v4.5.4/libs/TXLivePlayer-1.2.3.min.js"></script>
+  <script src="//web.sdk.qcloud.com/player/tcplayer/release/v4.5.4/libs/hls.min.1.1.5.js"></script>
+  <script src="//web.sdk.qcloud.com/player/tcplayer/release/v4.5.4/libs/flv.min.1.6.3.js"></script>
+  <script src="//web.sdk.qcloud.com/player/tcplayer/release/v4.5.4/libs/dash.all.min.4.4.1.js"></script>
+  <script src="//web.sdk.qcloud.com/player/tcplayer/release/v4.5.4/tcplayer.v4.5.4.min.js"></script>
+  <script src="//m.ieduchina.com/topic/tgFrom.js?t=202203081622" defer="defer"></script>
+  <script src="//res2.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+  <script src="https://m.ieduchina.com/topic/weixinShare.js?t=2024" defer="defer"></script>
+</body>
+
+</html>

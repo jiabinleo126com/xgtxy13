@@ -1,0 +1,70 @@
+<footer class="footer_nav">
+  <div class="con">
+    <% let {link,menu}=require(`./mock.json`)%>
+      <div class="footer-menu">
+        <h2>
+          <img src="//www.ieduchina.com/statics/pcc/img/logo_footer.png" alt="国际教育网">
+        </h2>
+        <ul>
+          <%menu && menu.forEach((item)=>{%>
+            <li><a href="<%=item.link%>">
+                <%=item.name%>
+              </a></li>
+            <%})%>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <ul>
+          <li>
+            <img src="//www.ieduchina.com/statics/pcc/img/ada.png" alt="国际教育网Ada">
+            <span>国际教育网Ada</span>
+          </li>
+          <li>
+            <p>学生家长咨询</p>
+            <p>400-900-8516</p>
+          </li>
+          <li>
+            <img src="//www.ieduchina.com/statics/hui.jpg" alt="学校官方媒体合作">
+            <span>学校官方媒体合作</span>
+          </li>
+          <li>
+            <p>学校媒体合作</p>
+            <p>18165706113</p>
+          </li>
+        </ul>
+        <div class="right">
+          <%link && link.forEach((el)=>{%>
+            <p>
+              <span>
+                <%=el.title%>
+              </span>
+              <%el.children.forEach((item)=>{%>
+                <span>
+                  <a>
+                    <%=item.title%>
+                  </a>
+                  <a class="img-wrap">
+                    <%if(item.islink){%>
+                      <img src="<%=item.image%>" alt="<%=item.title%>">
+                    <%}else{%>
+                      <img src="<%=require(`./images/${item.image}`)%>" alt="<%=item.title%>">
+                    <%}%>
+                  </a>
+                </span>
+                <%})%>
+            </p>
+            <%})%>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>Copyright © <span id="copyyear">2023</span> 国际教育网 版权所有 </p>
+        <p>
+          <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">粤ICP备2021064228号</a>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030502002588" target="_blank"
+            rel="nofollow">
+            <img src="<%=require(`./images/police.png`)%>">粤公网安备 44030502002588号</a>
+        </p>
+        <p>网站所有图片、文字未经许可不得拷贝、复制</p>
+      </div>
+  </div>
+</footer>

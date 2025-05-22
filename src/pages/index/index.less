@@ -1,0 +1,1190 @@
+:root {
+  --prime: #003d96
+}
+
+.date-card {
+  width: 125px;
+  height: 42px
+}
+
+.date-card .card {
+  width: 53px;
+  height: 42px;
+  background-color: #fff;
+  border: solid 5px var(--prime);
+  margin: 0 auto
+}
+
+.date-card .card p {
+  text-align: center;
+  margin-left: 0 !important
+}
+
+.date-card .card p:first-of-type {
+  background-color: var(--prime);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-top: -5px;
+  letter-spacing: 1px
+}
+
+.date-card .card p:nth-of-type(2) {
+  font-weight: bold;
+  color: var(--prime);
+  font-size: 15px;
+  padding-top: 2px;
+  letter-spacing: 1px
+}
+
+.images {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 0;
+  width: 1280px;
+  margin: 50px auto 0
+}
+
+.images .left img {
+  width: 560px;
+  height: 305px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: left center;
+  object-position: left center
+}
+
+.images .right {
+  width: 705px;
+  height: 305px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap
+}
+
+.images .right img {
+  width: 225px;
+  height: 145px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center
+}
+
+.images .right img:nth-of-type(n+4) {
+  margin-top: 15px
+}
+
+.xc {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0 57px
+}
+
+.xc:nth-of-type(2) {
+  padding-top: 0
+}
+
+.xc ul {
+  margin-top: 50px
+}
+
+.xc ul li {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #fff
+}
+
+.xc ul li .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.xc ul li .title>img {
+  width: 125px;
+  height: 42px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center
+}
+
+.xc ul li .title p {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 5px
+}
+
+.xc ul li .title button {
+  width: 105px;
+  height: 32px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 17px;
+  border: 1px solid var(--prime);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--prime);
+  cursor: pointer;
+  margin-right: 64px
+}
+
+.xc ul li .title button img {
+  width: 9px;
+  height: 8px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s
+}
+
+.xc ul li .title button.s img {
+  -webkit-transform: rotateZ(0);
+  transform: rotateZ(0);
+  -webkit-transition: all 1s;
+  transition: all 1s
+}
+
+.xc ul li .title button a {
+  display: none
+}
+
+.xc ul li .list {
+  height: 0;
+  overflow: hidden
+}
+
+.xc ul li .list .wrap .con {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+.xc ul li .list .wrap .con:last-of-type .time::after {
+  content: initial
+}
+
+.xc ul li .list .wrap .con .time {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  width: 125px;
+  text-align: center;
+  position: relative
+}
+
+.xc ul li .list .wrap .con .time::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 26px;
+  width: 1px;
+  bottom: 10px;
+  border-left: 1px #b8b8b8 dashed
+}
+
+.xc ul li .list .wrap .con .desc {
+  margin-left: 5px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 20px
+}
+
+.xc ul li .list .wrap .con .desc p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  margin-top: 15px;
+  padding-right: 60px;
+  line-height: 16px
+}
+
+.xc ul li .list .wrap .con .desc p.bold {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px
+}
+
+.xc ul li .list .wrap .con .desc p.bold:first-of-type {
+  margin-top: 0
+}
+
+.xc ul li .list .wrap .con .desc p.bold a {
+  color: #333
+}
+
+.xc ul li .list .wrap .con .desc p.bold a:hover {
+  color: var(--prime)
+}
+
+.xc ul li .list .wrap .con .desc p i {
+  font-style: initial
+}
+
+.xc ul li .list .wrap .con .desc .image {
+  margin-top: 15px;
+  width: 1080px;
+  font-size: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.xc ul li .list .wrap .con .desc .image.contain img {
+  width: 255px;
+  height: 300px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  margin-right: 20px
+}
+
+.xc ul li .list .wrap .con .desc .image.contain img:last-of-type {
+  margin-right: 0
+}
+
+.xc ul li .list .wrap .con .desc .image .video {
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer
+}
+
+.xc ul li .list .wrap .con .desc .image .video img {
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
+  -o-object-position: center -24px;
+  object-position: center -24px
+}
+
+.xc ul li .list .wrap .con .desc .image .video::after {
+  position: absolute;
+  pointer-events: none;
+  content: "";
+  width: 43px;
+  height: 43px;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: url(https://www.ieduchina.com/topic/2024/hk7/images/815ba699.png) center/contain no-repeat
+}
+
+.xc ul li .list .wrap .con .desc .image img {
+  width: 255px;
+  height: 130px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: left center;
+  object-position: left center;
+  margin-right: 20px
+}
+
+.xc ul li .list .wrap .con .desc .image img:last-of-type {
+  margin-right: 0
+}
+
+.school {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0 65px
+}
+
+.school ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 8px
+}
+
+.school ul li {
+  text-align: center;
+  margin-top: 40px;
+  width: 20%
+}
+
+.school ul li:first-of-type img {
+  padding: 10px
+}
+
+.school ul li img {
+  width: 218px;
+  height: 90px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center;
+  background-color: #fff;
+  border-radius: 6px
+}
+
+.school ul li p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 20px
+}
+
+body {
+  min-width: 1280px
+}
+
+body.noscroll {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding-right: 5px
+}
+
+body section {
+  min-width: 1280px;
+  background-color: #fff
+}
+
+body section.gray {
+  background-color: #f2f4f6
+}
+
+body section.green {
+  background-color: var(--prime)
+}
+
+body section.green>div>h3 {
+  color: #fff
+}
+
+body section h3.title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000
+}
+
+body section h3.title::after {
+  content: attr(en);
+  font-size: 28px;
+  font-weight: 500;
+  color: #ccc;
+  text-transform: uppercase;
+  margin-left: 20px
+}
+
+body section .banner {
+  width: 1280px;
+  margin: 0 auto
+}
+
+body section .banner img {
+  width: 100%;
+  height: 420px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center
+}
+
+body section .about {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0;
+  width: 1280px;
+  margin: 80px auto 0
+}
+
+body section .about h3 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #000
+}
+
+body section .about h3::after {
+  content: attr(en);
+  font-size: 28px;
+  font-weight: 500;
+  color: #ccc;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 10px
+}
+
+body section .about .text {
+  width: 954px
+}
+
+body section .about .text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  line-height: 30px;
+  padding-top: 20px;
+  text-align: justify;
+  letter-spacing: -1px
+}
+
+body section .about .text p:first-of-type {
+  padding-top: 0;
+  margin-top: -6px
+}
+
+body section .about .text p span {
+  color: var(--prime)
+}
+
+body section .ld {
+  width: 1280px;
+  margin: 80px auto 0;
+  padding-bottom: 64px
+}
+
+body section .ld ul {
+  margin-top: 50px
+}
+
+body section .ld ul li {
+  height: 48px;
+  margin-top: 30px;
+  line-height: 48px;
+  font-size: 16px;
+  background-color: #f6f6f6;
+  -webkit-clip-path: polygon(74px -118px, 200% 100%, 200% 100%, 0px 50px);
+  clip-path: polygon(74px -118px, 200% 100%, 200% 100%, 0px 50px)
+}
+
+body section .ld ul li:nth-of-type(even) span {
+  background-color: #f99501
+}
+
+body section .ld ul li span {
+  background-color: var(--prime);
+  margin-right: 47px;
+  font-size: 22px;
+  font-weight: 500;
+  width: 142px;
+  height: 48px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  -webkit-clip-path: polygon(74px -118px, 166px -55px, 100px 100px, 0px 50px);
+  clip-path: polygon(74px -118px, 166px -55px, 100px 100px, 0px 50px)
+}
+
+body section .jc {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0 80px
+}
+
+body section .jc .swiper-container {
+  height: 360px;
+  margin-top: 80px
+}
+
+body section .jc .swiper-container img {
+  -o-object-position: center;
+  object-position: center;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+
+body section .jc .swiper-container .swiper-slide-next,
+body section .jc .swiper-container .swiper-slide-prev {
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5)
+}
+
+body section .sp {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0
+}
+
+body section .sp .box {
+  width: 1034px;
+  height: 707px;
+  margin: 80px auto 0
+}
+
+body section .sp .box .video-wrap {
+  width: 1034px;
+  height: 520px
+}
+
+body section .sp .box .video-wrap .tcplayer {
+  width: 100%;
+  height: 100%
+}
+
+body section .sp .box p {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  background-color: #000
+}
+
+body section .sp .box .swiper_wrap {
+  background-color: #656565;
+  position: relative;
+  padding-top: 18px
+}
+
+body section .sp .box .swiper_wrap .video_swiper {
+  width: 820px;
+  height: 122px;
+  margin: 0 auto
+}
+
+body section .sp .box .swiper_wrap .video_swiper .swiper-wrapper .swiper-slide img {
+  width: 190px;
+  height: 104px;
+  -o-object-position: center -19px;
+  object-position: center -19px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer
+}
+
+body section .sp .box .swiper_wrap .swiper-button-prev {
+  position: absolute;
+  left: 50px;
+  top: 80px;
+  width: 14px;
+  height: 30px;
+  background: url(https://www.ieduchina.com/topic/2024/hk7/images/10552782.png) center/contain no-repeat
+}
+
+body section .sp .box .swiper_wrap .swiper-button-next {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+  width: 14px;
+  height: 30px;
+  background: url(https://www.ieduchina.com/topic/2024/hk7/images/10552782.png) center/contain no-repeat;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg)
+}
+
+body footer .con {
+  width: 1280px;
+  margin: 0 auto
+}
+
+body footer .con .top {
+  border-bottom: solid 1px #c7c7c7;
+  padding: 80px 0 22px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end
+}
+
+body footer .con .top a {
+  margin-left: 46px
+}
+
+body footer .con .top img {
+  width: 184px;
+  height: 75px
+}
+
+body footer .con .top .menu {
+  padding-bottom: 17px
+}
+
+body footer .con .top .menu a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333
+}
+
+body footer .con .contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0;
+  padding-bottom: 36px;
+  border-bottom: solid 1px #c7c7c7
+}
+
+body footer .con .contact .left {
+  padding-left: 34px
+}
+
+body footer .con .contact .left p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  padding-top: 18px;
+  line-height: 24px;
+  position: relative
+}
+
+body footer .con .contact .left p img {
+  position: absolute;
+  left: -32px;
+  top: 19px;
+  z-index: 1
+}
+
+body footer .con .contact .left p span {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  padding-left: 25px
+}
+
+body footer .con .contact .left p:last-of-type img {
+  top: 15px;
+}
+
+body footer .con .contact ul {
+  width: 500px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 56px
+}
+
+body footer .con .contact ul li img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: center;
+  object-position: center
+}
+
+body footer .con .contact ul li p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  padding-top: 10px
+}
+
+body footer .con .bottom p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px 0 30px
+}
+
+body footer .con .bottom p span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333
+}
+
+body footer .con .bottom p span a {
+  color: #333
+}
+
+body .mask {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 111;
+  background-color: rgba(0, 0, 0, .5)
+}
+
+body .mask .wrap {
+  position: absolute;
+  background-color: #000;
+  width: 1200px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  z-index: 100;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+body .mask .wrap>img {
+  width: 32px;
+  height: 32px;
+  -o-object-position: center;
+  object-position: center;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  z-index: 100;
+  cursor: pointer
+}
+
+body .mask .wrap .video-play {
+  width: 100%;
+  height: 100%
+}
+
+body .mask .wrap .video-play .tcplayer {
+  width: 100%;
+  height: 100%
+}
+
+.right-fixed-nav {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  width: 98px;
+  z-index: 100;
+  background-color: var(--prime);
+  -webkit-box-shadow: 0 0 6px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, .1)
+}
+
+.right-fixed-nav ul li {
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  text-align: center;
+  padding: 15px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.right-fixed-nav ul li:hover .right-nav-list {
+  -webkit-transform: scale(1);
+  transform: scale(1)
+}
+
+.right-fixed-nav ul li .right-nav-list-wq {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  position: absolute;
+  right: 98px;
+  width: 100px;
+  top: 0;
+  background-color: white;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+  border: 1px solid #dcdcdc;
+}
+
+.right-fixed-nav ul li .right-nav-list-wq ul li {
+  padding: 0;
+}
+
+.right-fixed-nav ul li .right-nav-list-wq ul li a {
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #333;
+}
+
+.right-fixed-nav ul li .right-nav-list-wq ul li a:hover {
+  color: var(--prime);
+}
+
+.right-fixed-nav ul li:hover .right-nav-list-wq {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.right-fixed-nav ul li:nth-of-type(2) .right-nav-list {
+  left: -151px;
+  top: -26px
+}
+
+.right-fixed-nav ul li:nth-of-type(4) .right-nav-list {
+  left: -151px;
+  top: -38px
+}
+
+.right-fixed-nav ul li:last-of-type p.title {
+  padding-bottom: 0;
+  border-bottom: none
+}
+
+.right-fixed-nav ul li>img {
+  width: 44px;
+  height: 44px
+}
+
+.right-fixed-nav ul li p.title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  width: 70px;
+  margin: 0 auto;
+  padding-bottom: 14px;
+  border-bottom: solid 1px #fff
+}
+
+.right-fixed-nav ul li .right-nav-list {
+  border: 1px solid #dcdcdc;
+  position: absolute;
+  color: #333;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition: -webkit-transform .25s;
+  transition: -webkit-transform .25s;
+  transition: transform .25s;
+  transition: transform .25s, -webkit-transform .25s;
+  background-color: #fff;
+  font-size: 0
+}
+
+.right-fixed-nav ul li .right-nav-list div {
+  display: inline-block;
+  width: 149px
+}
+
+.right-fixed-nav ul li .right-nav-list div img {
+  width: 122px;
+  height: 122px;
+  margin-top: 7px
+}
+
+.right-fixed-nav ul li .right-nav-list div p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  line-height: 18px;
+  padding: 5px 0
+}
+
+.mask_form {
+  display: none;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, .4);
+  z-index: 1200;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0
+}
+
+.mask_form.show {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.mask_form .inner .form {
+  width: 436px;
+  padding-bottom: 30px;
+  background: #fff;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 1
+}
+
+.mask_form .inner .form h2.title {
+  padding: 37px 0 11px;
+  text-align: center
+}
+
+.mask_form .inner .form h2.title span {
+  font-size: 28px
+}
+
+.mask_form .inner .form h2.title span::after,
+.mask_form .inner .form h2.title span::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 29px;
+  height: 34px
+}
+
+.mask_form .inner .form h2.title span::before {
+  left: -46px
+}
+
+.mask_form .inner .form h2.title span::after {
+  right: -46px
+}
+
+.mask_form .inner .form form div {
+  overflow: hidden;
+  width: 368px;
+  height: 50px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ebebeb;
+  margin: 20px auto 0
+}
+
+.mask_form .inner .form form div.select {
+  position: relative
+}
+
+.mask_form .inner .form form div.select::after {
+  position: absolute;
+  right: 18px;
+  top: 20px;
+  content: "";
+  z-index: 10;
+  width: 16px;
+  height: 10px;
+  -o-object-position: center;
+  object-position: center;
+  -o-object-fit: contain;
+  object-fit: contain;
+  pointer-events: none;
+  background: url(https://www.ieduchina.com/topic/2024/hk7/images/06d922bf.png) center/contain no-repeat
+}
+
+.mask_form .inner .form form div input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 368px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  outline: none
+}
+
+.mask_form .inner .form form div input::-webkit-input-placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999
+}
+
+.mask_form .inner .form form div input::-moz-placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999
+}
+
+.mask_form .inner .form form div input:-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999
+}
+
+.mask_form .inner .form form div input::-ms-input-placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999
+}
+
+.mask_form .inner .form form div input::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+  color: #999
+}
+
+.mask_form .inner .form form div select {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 368px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #999;
+  border: none;
+  outline: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+
+.mask_form .inner .form form div select:-internal-autofill-previewed,
+.mask_form .inner .form form div select:-internal-autofill-selected {
+  -webkit-text-fill-color: #000;
+  -webkit-transition: background-color 5000s ease-out .5s;
+  transition: background-color 5000s ease-out .5s
+}
+
+.mask_form .inner .form form p.error-tips {
+  font-size: 16px;
+  color: red;
+  height: 0;
+  line-height: 60px;
+  text-align: center
+}
+
+.mask_form .inner .form form button[type=submit] {
+  display: block;
+  width: 368px;
+  height: 56px;
+  background: var(--prime);
+  border-radius: 4px;
+  margin: 30px auto 0;
+  font-size: 26px;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none
+}
+
+.mask_form .inner .bottom {
+  text-align: center
+}
+
+.mask_form .inner .bottom img {
+  width: 48px;
+  height: 48px;
+  margin-top: 40px;
+  cursor: pointer
+}
+
+img[preview] {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in
+}
+
+.img-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1100;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  &.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 80vw;
+      height: 80vh;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    .close-img-mask {
+      position: absolute;
+      left: 50%;
+      bottom: 4vh;
+      margin-left: 24px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 20px;
+      cursor: pointer;
+      background: url("//www.ieduchina.com/topic/2024/hk7/images/a4ba9f2a.png") center/contain no-repeat;
+    }
+
+    .arr {
+      span {
+        position: absolute;
+        top: 50%;
+        margin-top: -30px;
+        width: 60px;
+        height: 60px;
+        background: url("./images/右-圆_right-c.png") center/contain no-repeat;
+        cursor: pointer;
+
+        &.left {
+          left: 5vw;
+          transform: rotate(180deg);
+        }
+
+        &.right {
+          right: 5vw;
+        }
+      }
+    }
+  }
+}

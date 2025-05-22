@@ -1,0 +1,28 @@
+<%const {menu} = require(`./mock.json`)%>
+<div class="bar-title">
+  <div class="bar-title-con">
+    <ul class="left">
+      <li class="nav">网站导航
+        <div class="nav_box">
+          <div class="nav_box_in">
+            <%menu.forEach(item=>{%>
+              <ol>
+                <li><%=item.title%></li>
+                <%item.child.forEach(el=>{%>
+                  <li><a href="" target="_blank"><%=el.title%></a></li>
+                <%})%>
+              </ol>
+            <%})%>
+          </div>
+        </div>
+      </li>
+      <!-- <li>返回<a class="home" href="/">国际教育网</a>主页</li> -->
+      <li><a href="">投诉建议</a></li>
+      <li><a href="">发布文章</a></li>
+    </ul>
+    <ul class="right">
+      <li class="login" id="login-before"><a href="user.html">登录</a>/<a href="register.html">注册</a></li>
+      <li><a class="s2hk" style="cursor: pointer;">繁體</a></li>
+    </ul>
+  </div>
+</div>

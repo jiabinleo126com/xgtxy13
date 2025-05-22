@@ -1,0 +1,195 @@
+<!-- <img src="https://www.ieduchina.com/statics/image/c14def69.jpg" width="0" height="0" style="display: none;"> -->
+<header class="bar">
+  <%=require(`@cs/bar-title/index.ejs`)()%>
+    <div class="bar-header">
+      <div class="logo">
+        <a href="/">
+          <img src="<%=require(`@common/images/logo.png`)%>">
+        </a>
+      </div>
+      <div class="search-box">
+        <form action="/searchlist.html" method="get" id="search">
+          <input id="q" class="search-content" name="qsearchkey" type="text" value="" placeholder="搜索 学校/文章/机构">
+          <button id="searchbtn" class="search-submit" type="submit">
+            <img src="<%=require(`./images/search1.png`)%>">
+            搜索
+          </button>
+          <a href="">高级搜索</a>
+        </form>
+      </div>
+      <div class="tel">
+        <a href="tel:4009008516">400-900-8516</a>
+      </div>
+    </div>
+    <div class="iedu-menu-wrap">
+      <div class="iedu-menu-box">
+        <ul class="iedu-menu">
+          <li>
+            <a href="//www.ieduchina.com/"><span>首页</span></a>
+          </li>
+          <li class="parentMenu">
+            <a href="//www.ieduchina.com/school/index.html"><span>教育资讯</span></a>
+            <ul class="submenu" style="display: none;">
+              <li><a href="//www.ieduchina.com/school/index.html"><span>校园资讯</span></a></li>
+              <li><a href="//www.ieduchina.com/abroad/index.html"><span>留学资讯</span></a></li>
+            </ul>
+          </li>
+          <li class="parentMenu">
+            <a href="//schoollist.ieduchina.com"><span>学校大全</span></a>
+            <ul class="submenu" style="display: none;">
+              <li><a href="//schoollist.ieduchina.com"><span>内地学校</span></a></li>
+              <li><a href="//www.ieduchina.com/hongkong/" target="_blank"><span>香港学校</span></a></li>
+              <li><a href="//www.ieduchina.com/singapore/index.html" target="_blank"><span>新加坡学校</span></a></li>
+              <li><a href="//schoollist.ieduchina.com/schlist/c1/"><span>海外学校</span></a></li>
+              <li><a href="//www.ieduchina.com/graduate/index.html"><span>家长进修</span></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="//www.ieduchina.com/camps/index.html"><span>夏/冬令营</span></a>
+          </li>
+          <li class="parentMenu">
+            <a href="//www.ieduchina.com/zwhb/"><span>合办大学</span></a>
+            <ul class="submenu" style="display: none;">
+              <a href="//www.ieduchina.com/zwhb/"><span>中外合办大学</span></a>
+              <li><a href="//www.ieduchina.com/gwhb/"><span>港外合办大学</span></a></li>
+            </ul>
+          </li>
+          <li class="parentMenu">
+            <a href="//www.ieduchina.com/huodong/"><span>学校活动</span></a>
+            <ul class="submenu" style="display: none;">
+              <li><a href="//www.ieduchina.com/huodong/?type=9"><span>家长学院</span></a></li>
+              <li><a href="//www.ieduchina.com/huodong/?type=6"><span>学校开放日</span></a></li>
+              <li>
+                <a href="//www.ieduchina.com/topic/2024/hk7/" target="_blank"><span><img
+                      src="//www.ieduchina.com/statics/pcc/img/11d86433.png"
+                      style="vertical-align: -1px;">访校团</span></a>
+                <div class="box">
+                  <div class="box_lis">
+                    <div class="box_con">
+                      <a href="" title="香港教育文化之旅"
+                        target="_blank">25年01月:中华基金中学、迦密爱礼信中学等7所学校</a>
+                      <a href="//www.ieduchina.com/topic/2025/hkyy10/" title="香港教育文化之旅"
+                        target="_blank">25年01月:汇基书院（东九龙）、沙田培英中学等6所学校</a>
+                      <a href="//www.ieduchina.com/topic/2024/hk11/" title="香港教育文化之旅"
+                        target="_blank">24年12月:元朗公立中学校友会邓英业小学等5所学校</a>
+                      <a href="//www.ieduchina.com/topic/2024/hk8/" title="香港教育文化之旅"
+                        target="_blank">24年12月:中华基督教会铭基书院等4所学校</a>
+                      <a href="//www.ieduchina.com/topic/2024/hk7/" title="香港教育文化之旅"
+                        target="_blank">24年10月:香岛中学、新会商会陈白沙纪念中学等9所学校</a>
+                      <a href="//www.ieduchina.com/topic/2024/hkyx1/" title="香港英文中学暑期访校研学营"
+                        target="_blank">24年07月:孔圣堂礼仁书院等5所本地学校(访校研学)</a>
+                      <a href="//www.ieduchina.com/topic/2024/hk6/" title="香港教育文化之旅"
+                        target="_blank">24年07月:汇基书院（东九龙）、播道书院等4所学校</a>
+                      <a href="//www.ieduchina.com/topic/2024/hk5/" title="香港教育文化之旅"
+                        target="_blank">24年05月:沙田培英、保良局罗杰承(一九八三)等15所学校</a>
+                      <a href="//www.ieduchina.com/topic/2024/hk4/" title="香港教育文化之旅"
+                        target="_blank">24年01月:香港UWC、播道书院等8所学校</a>
+                      <a href="//www.ieduchina.com/topic/2023/hk3/" title="香港教育文化之旅"
+                        target="_blank">23年12月:中华基督教会协和书院等6所学校+教育展</a>
+                      <a href="//www.ieduchina.com/topic/2023/xg/" title="香港教育文化之旅"
+                        target="_blank">23年10月:保良局百周年李兆忠纪念中学等6所学校</a>
+                      <a href="//www.ieduchina.com/topic/2023/hk/" title="香港教育文化之旅"
+                        target="_blank">23年07月:圣保禄学校、英华书院、九龙真光等10所学校 </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="//www.ieduchina.com/topic/2024/shenzhen/index.html" target="_blank"><span>国际教育论坛</span></a>
+                <div class="box" style="padding-top: 12px;">
+                  <div class="box_lis" style="max-height: 486px;">
+                    <div class="box_con center">
+                      <a href="//www.ieduchina.com/topic/2024/sz/index.html" rel="nofollow" target="_blank">2024年10月</a>
+                      <a href="//www.ieduchina.com/topic/2024/shenzhen/index.html" rel="nofollow"
+                        target="_blank">2024年03月</a>
+                      <a href="//www.ieduchina.com/topic/2023/shenzhen/index.html" rel="nofollow"
+                        target="_blank">2023年10月</a>
+                      <a href="//www.ieduchina.com/topic/2022/shenzhen/index.html" rel="nofollow"
+                        target="_blank">2022年04月</a>
+                      <a href="//www.ieduchina.com/topic/2020/1017_SZ/" rel="nofollow" target="_blank">2020年10月</a>
+                      <a href="//www.ieduchina.com/topic/2020/711_SZ/" rel="nofollow" target="_blank">2020年07月</a>
+                      <a href="//www.ieduchina.com/topic/2020/3_SZ/" rel="nofollow" target="_blank">2020年03月</a>
+                      <a href="//www.ieduchina.com/topic/2019/11_SZ/" rel="nofollow" target="_blank">2019年11月</a>
+                      <a href="//www.ieduchina.com/topic/2019/07_SZ/" rel="nofollow" target="_blank">2019年07月</a>
+                      <a href="//www.ieduchina.com/topic/2019/05_SH/" rel="nofollow" target="_blank">2019年05月</a>
+                      <a href="//www.ieduchina.com/topic/2019/04_SZ/index.html" rel="nofollow"
+                        target="_blank">2019年04月</a>
+                      <a href="//www.ieduchina.com/topic/2019/03_GZ/" rel="nofollow" target="_blank">2019年03月</a>
+                      <a href="//www.ieduchina.com/topic/2019/12_SZ/" rel="nofollow" target="_blank">2018年12月</a>
+                      <a href="//www.ieduchina.com/topic/2018/5_GZ/index.html" rel="nofollow"
+                        target="_blank">2018年05月</a>
+                      <a href="//www.ieduchina.com/topic/2018/4_SZ/index.html" rel="nofollow"
+                        target="_blank">2018年04月</a>
+                      <a href="//www.ieduchina.com/topic/2017/11_GZ/index.html" rel="nofollow"
+                        target="_blank">2017年11月</a>
+                      <a href="//www.ieduchina.com/topic/2017/10_SZ/index.html" rel="nofollow"
+                        target="_blank">2017年10月</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="parentMenu">
+            <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow"><span>备考学习</span></a>
+            <ul class="submenu" style="display: none;">
+              <li>
+                <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow"><span>官方考试</span></a>
+                <div class="box">
+                  <div class="box_lis">
+                    <div class="box_title">入学考试</div>
+                    <div class="box_con">
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">MAP</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">CAT4</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">中数</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">英数</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">新加坡</a>
+                    </div>
+                  </div>
+                  <div class="box_lis">
+                    <div class="box_title">语言考试</div>
+                    <div class="box_con">
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">雅思</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">托福</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">多邻国</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">SAT</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">GRE</a>
+                    </div>
+                  </div>
+                  <div class="box_lis">
+                    <div class="box_title">国际考试</div>
+                    <div class="box_con">
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">A-LEVEL</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">IB考试</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">AP考试</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">DSE考试</a>
+                    </div>
+                  </div>
+                  <div class="box_lis">
+                    <div class="box_title">数学竞赛</div>
+                    <div class="box_con">
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">美国AMC</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">澳洲AMC</a>
+                      <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">袋鼠数学竞赛</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a rel="nofollow"><span>AI学习资源</span></a>
+                <div class="box">
+                  <div class="box_lis">
+                    <div class="box_con">
+                      <a href="https://www.thenational.academy/" rel="nofollow">oak national academy</a>
+                      <a href="https://www.littlewandlelettersandsounds.org.uk/" rel="nofollow">Letters and Sounds</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li><a href="//www.ieduchina.com/service/aboutus.html" rel="nofollow"><span>关于我们</span></a></li>
+        </ul>
+      </div>
+    </div>
+</header>

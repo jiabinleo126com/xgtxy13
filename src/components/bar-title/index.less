@@ -1,0 +1,142 @@
+.bar-title {
+    border-bottom: solid 1px #e5e5e5;
+    position: relative;
+
+    .bar-title-con {
+        width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        height: 37px;
+        line-height: 37px;
+        font-size: 14px;
+        color: #333333;
+
+        .left {
+            display: flex;
+
+            &>li {
+                font-weight: 400;
+                font-size: 14px;
+                color: #333333;
+                margin-right: 30px;
+
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #333333;
+
+                    &.home {
+                        color: #0770D1;
+                    }
+                }
+
+                &.nav {
+                    position: relative;
+                    padding-right: 15px;
+                    cursor: pointer;
+
+                    &:hover {
+                        .nav_box {
+                            display: block;
+                        }
+                    }
+
+                    &::after {
+                        pointer-events: none;
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        top: 9px;
+                        width: 10px;
+                        height: 18px;
+                        background: url("//schoollist.ieduchina.com/statics/pcc/img/a91b75e0.png") center/contain no-repeat;
+                    }
+
+                    .nav_box {
+                        display: none;
+                        position: absolute;
+                        top: 34px;
+                        left: 0;
+                        z-index: 100;
+                        padding-top: 4px;
+                        animation: ann 0.3s ease-in-out;
+
+                        .nav_box_in {
+                            padding: 10px 20px 13px;
+                            background: #FFFFFF;
+                            box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.1608);
+
+                            ol {
+                                display: flex;
+
+                                li {
+                                    font-weight: bold;
+                                    font-size: 14px;
+                                    color: #333333;
+                                    white-space: nowrap;
+
+                                    &:first-of-type {
+                                        &::after {
+                                            content: "|";
+                                            margin-left: 20px;
+                                            color: #BEBEBE;
+                                        }
+                                    }
+
+                                    a {
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                        color: #666666;
+                                        padding: 0 20px;
+
+                                        &.active,
+                                        &:hover {
+                                            width: 56px;
+                                            color: #0770D1;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+
+            li {
+                padding-left: 30px;
+
+                &.login {
+                    color: #0770D1;
+
+                    a {
+                        color: #0770D1;
+                        margin: 0 4px;
+                    }
+                }
+
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #333333;
+                }
+            }
+        }
+    }
+}
+
+@keyframes ann {
+    0% {
+        top: 30px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 34px;
+        opacity: 1;
+    }
+}
