@@ -433,51 +433,45 @@ module.exports = {
     ],
     school: [
         {
-            name: "中华基金中学",
+            name: "可风中学(啬色园主办)",
             image: "https://www.ieduchina.com/uploadfile/college/202309/1695808686.jpg",
             link: "https://schoollist.ieduchina.com/school/cfss/",
             islink: true
         },
         {
-            name: "屯门天主教中学",
+            name: "世界龙冈学校刘皇发中学",
             image: "https://zhaosheng.ieduchina.com/Upload/File/202402/65c1cbccbbee0.jpg",
             link: "https://schoollist.ieduchina.com/school/tmcss/",
             islink: true
         },
         {
-            name: "沙田培英中学",
+            name: "屯门天主教中学",
             image: "https://www.ieduchina.com/uploadfile/college/202310/1698053489.jpg",
             link: "https://schoollist.ieduchina.com/school/pyc/",
             islink: true
         },
         {
-            name: "播道书院",
+            name: "基督教香港信义会元朗信义中学",
             image: "https://www.ieduchina.com/uploadfile/college/202401/1704353550.jpg",
             link: "https://schoollist.ieduchina.com/school/evangel/",
             islink: true,
         },
         {
-            name: "汇基书院(东九龙)",
+            name: "九龙塘学校(中学部)",
             image: "https://www.ieduchina.com/uploadfile/college/202310/1697439246.jpg",
             link: "https://schoollist.ieduchina.com/school/uccke/",
             islink: true,
         },
         {
-            name: "中华基金中学",
+            name: "中华基督教会基道中学",
             image: "https://www.ieduchina.com/uploadfile/college/202309/1695808686.jpg",
             link: "https://schoollist.ieduchina.com/school/cfss/",
             islink: true
         },
         {
-            name: "屯门天主教中学",
+            name: "香港德思齐加拿大国际学校",
             image: "https://zhaosheng.ieduchina.com/Upload/File/202402/65c1cbccbbee0.jpg",
             link: "https://schoollist.ieduchina.com/school/tmcss/",
-            islink: true
-        },
-        {
-            name: "沙田培英中学",
-            image: "https://www.ieduchina.com/uploadfile/college/202310/1698053489.jpg",
-            link: "https://schoollist.ieduchina.com/school/pyc/",
             islink: true
         },
         {
@@ -487,7 +481,13 @@ module.exports = {
             islink: true,
         },
         {
-            name: "汇基书院(东九龙)",
+            name: "香港苏浙公学国际部",
+            image: "https://www.ieduchina.com/uploadfile/college/202401/1704353550.jpg",
+            link: "https://schoollist.ieduchina.com/school/evangel/",
+            islink: true,
+        },
+        {
+            name: "UWC李宝椿联合世界书院",
             image: "https://www.ieduchina.com/uploadfile/college/202310/1697439246.jpg",
             link: "https://schoollist.ieduchina.com/school/uccke/",
             islink: true,
