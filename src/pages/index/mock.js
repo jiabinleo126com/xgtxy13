@@ -49,17 +49,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "中华基金中学-min-1.jpg",
-                            max: "中华基金中学-max-1.jpg"
+                            min: "可风中学-min-1.jpg",
+                            max: "可风中学-max-1.jpg"
                         }, {
-                            min: "中华基金中学-min-2.jpg",
-                            max: "中华基金中学-max-2.jpg"
+                            min: "可风中学-min-2.jpg",
+                            max: "可风中学-max-2.jpg"
                         }, {
-                            min: "中华基金中学-min-3.jpg",
-                            max: "中华基金中学-max-3.jpg"
+                            min: "可风中学-min-3.jpg",
+                            max: "可风中学-max-3.jpg"
                         }, {
-                            min: "中华基金中学-min-4.jpg",
-                            max: "中华基金中学-max-4.jpg"
+                            min: "可风中学-min-4.jpg",
+                            max: "可风中学-max-4.jpg"
                         }
                     ]
                 },
@@ -79,17 +79,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "中华基金中学-min-1.jpg",
-                            max: "中华基金中学-max-1.jpg"
+                            min: "世界龙冈学校刘皇发中学-min-1.jpg",
+                            max: "世界龙冈学校刘皇发中学-max-1.jpg"
                         }, {
-                            min: "中华基金中学-min-2.jpg",
-                            max: "中华基金中学-max-2.jpg"
+                            min: "世界龙冈学校刘皇发中学-min-2.jpg",
+                            max: "世界龙冈学校刘皇发中学-max-2.jpg"
                         }, {
-                            min: "中华基金中学-min-3.jpg",
-                            max: "中华基金中学-max-3.jpg"
+                            min: "世界龙冈学校刘皇发中学-min-3.jpg",
+                            max: "世界龙冈学校刘皇发中学-max-3.jpg"
                         }, {
-                            min: "中华基金中学-min-4.jpg",
-                            max: "中华基金中学-max-4.jpg"
+                            min: "世界龙冈学校刘皇发中学-min-4.jpg",
+                            max: "世界龙冈学校刘皇发中学-max-4.jpg"
                         }
                     ]
                 },
@@ -121,17 +121,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "迦密爱礼信中学-min-1.jpg",
-                            max: "迦密爱礼信中学-max-1.jpg"
+                            min: "屯门天主教中学-min-1.jpg",
+                            max: "屯门天主教中学-max-1.jpg"
                         }, {
-                            min: "迦密爱礼信中学-min-2.jpg",
-                            max: "迦密爱礼信中学-max-2.jpg"
+                            min: "屯门天主教中学-min-2.jpg",
+                            max: "屯门天主教中学-max-2.jpg"
                         }, {
-                            min: "迦密爱礼信中学-min-3.jpg",
-                            max: "迦密爱礼信中学-max-3.jpg"
+                            min: "屯门天主教中学-min-3.jpg",
+                            max: "屯门天主教中学-max-3.jpg"
                         }, {
-                            min: "迦密爱礼信中学-min-4.jpg",
-                            max: "迦密爱礼信中学-max-4.jpg"
+                            min: "屯门天主教中学-min-4.jpg",
+                            max: "屯门天主教中学-max-4.jpg"
                         }
                     ]
                 },
@@ -155,14 +155,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "屯门天主教中学-min-1.jpg",
-                            max: "屯门天主教中学-max-1.jpg"
+                            min: "基督教香港信义会元朗信义中学-min-1.jpg",
+                            max: "基督教香港信义会元朗信义中学-max-1.jpg"
                         }, {
-                            min: "屯门天主教中学-min-2.jpg",
-                            max: "屯门天主教中学-max-2.jpg"
+                            min: "基督教香港信义会元朗信义中学-min-2.jpg",
+                            max: "基督教香港信义会元朗信义中学-max-2.jpg"
                         }, {
-                            min: "屯门天主教中学-min-3.jpg",
-                            max: "屯门天主教中学-max-3.jpg"
+                            min: "基督教香港信义会元朗信义中学-min-3.jpg",
+                            max: "基督教香港信义会元朗信义中学-max-3.jpg"
+                        }, {
+                            min: "基督教香港信义会元朗信义中学-min-4.jpg",
+                            max: "基督教香港信义会元朗信义中学-max-4.jpg"
                         }
                     ]
                 },
@@ -205,17 +208,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "沙田培英-min-1.jpg",
-                            max: "沙田培英-max-1.jpg"
+                            min: "九龙塘学校中学部-min-1.jpg",
+                            max: "九龙塘学校中学部-max-1.jpg"
                         }, {
-                            min: "沙田培英-min-2.jpg",
-                            max: "沙田培英-max-2.jpg"
+                            min: "九龙塘学校中学部-min-2.jpg",
+                            max: "九龙塘学校中学部-max-2.jpg"
                         }, {
-                            min: "沙田培英-min-3.jpg",
-                            max: "沙田培英-max-3.jpg"
+                            min: "九龙塘学校中学部-min-3.jpg",
+                            max: "九龙塘学校中学部-max-3.jpg"
                         }, {
-                            min: "沙田培英-min-4.jpg",
-                            max: "沙田培英-max-4.jpg"
+                            min: "九龙塘学校中学部-min-4.jpg",
+                            max: "九龙塘学校中学部-max-4.jpg"
                         }
                     ]
                 },
@@ -243,17 +246,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "播道书院-min-1.jpg",
-                            max: "播道书院-max-1.jpg"
+                            min: "中华基督教会基道中学-min-1.jpg",
+                            max: "中华基督教会基道中学-max-1.jpg"
                         }, {
-                            min: "播道书院-min-2.jpg",
-                            max: "播道书院-max-2.jpg"
+                            min: "中华基督教会基道中学-min-2.jpg",
+                            max: "中华基督教会基道中学-max-2.jpg"
                         }, {
-                            min: "播道书院-min-3.jpg",
-                            max: "播道书院-max-3.jpg"
+                            min: "中华基督教会基道中学-min-3.jpg",
+                            max: "中华基督教会基道中学-max-3.jpg"
                         }, {
-                            min: "播道书院-min-4.jpg",
-                            max: "播道书院-max-4.jpg"
+                            min: "中华基督教会基道中学-min-4.jpg",
+                            max: "中华基督教会基道中学-max-4.jpg"
                         }
                     ]
                 },
@@ -304,17 +307,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "中华基金中学-min-1.jpg",
-                            max: "中华基金中学-max-1.jpg"
+                            min: "dsc-min-1.jpg",
+                            max: "dsc-max-1.jpg"
                         }, {
-                            min: "中华基金中学-min-2.jpg",
-                            max: "中华基金中学-max-2.jpg"
+                            min: "dsc-min-2.jpg",
+                            max: "dsc-max-2.jpg"
                         }, {
-                            min: "中华基金中学-min-3.jpg",
-                            max: "中华基金中学-max-3.jpg"
+                            min: "dsc-min-3.jpg",
+                            max: "dsc-max-3.jpg"
                         }, {
-                            min: "中华基金中学-min-4.jpg",
-                            max: "中华基金中学-max-4.jpg"
+                            min: "dsc-min-4.jpg",
+                            max: "dsc-max-4.jpg"
                         }
                     ]
                 },
@@ -334,17 +337,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "中华基金中学-min-1.jpg",
-                            max: "中华基金中学-max-1.jpg"
+                            min: "播道书院-min-1.jpg",
+                            max: "播道书院-max-1.jpg"
                         }, {
-                            min: "中华基金中学-min-2.jpg",
-                            max: "中华基金中学-max-2.jpg"
+                            min: "播道书院-min-2.jpg",
+                            max: "播道书院-max-2.jpg"
                         }, {
-                            min: "中华基金中学-min-3.jpg",
-                            max: "中华基金中学-max-3.jpg"
+                            min: "播道书院-min-3.jpg",
+                            max: "播道书院-max-3.jpg"
                         }, {
-                            min: "中华基金中学-min-4.jpg",
-                            max: "中华基金中学-max-4.jpg"
+                            min: "播道书院-min-4.jpg",
+                            max: "播道书院-max-4.jpg"
                         }
                     ]
                 },
@@ -376,17 +379,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "迦密爱礼信中学-min-1.jpg",
-                            max: "迦密爱礼信中学-max-1.jpg"
+                            min: "苏浙公学国际部-min-1.jpg",
+                            max: "苏浙公学国际部-max-1.jpg"
                         }, {
-                            min: "迦密爱礼信中学-min-2.jpg",
-                            max: "迦密爱礼信中学-max-2.jpg"
+                            min: "苏浙公学国际部-min-2.jpg",
+                            max: "苏浙公学国际部-max-2.jpg"
                         }, {
-                            min: "迦密爱礼信中学-min-3.jpg",
-                            max: "迦密爱礼信中学-max-3.jpg"
+                            min: "苏浙公学国际部-min-3.jpg",
+                            max: "苏浙公学国际部-max-3.jpg"
                         }, {
-                            min: "迦密爱礼信中学-min-4.jpg",
-                            max: "迦密爱礼信中学-max-4.jpg"
+                            min: "苏浙公学国际部-min-4.jpg",
+                            max: "苏浙公学国际部-max-4.jpg"
                         }
                     ]
                 },
@@ -411,14 +414,17 @@ module.exports = {
                     ],
                     images: [
                         {
-                            min: "屯门天主教中学-min-1.jpg",
-                            max: "屯门天主教中学-max-1.jpg"
+                            min: "uwc-min-1.jpg",
+                            max: "uwc-max-1.jpg"
                         }, {
-                            min: "屯门天主教中学-min-2.jpg",
-                            max: "屯门天主教中学-max-2.jpg"
+                            min: "uwc-min-2.jpg",
+                            max: "uwc-max-2.jpg"
                         }, {
-                            min: "屯门天主教中学-min-3.jpg",
-                            max: "屯门天主教中学-max-3.jpg"
+                            min: "uwc-min-3.jpg",
+                            max: "uwc-max-3.jpg"
+                        }, {
+                            min: "uwc-min-4.jpg",
+                            max: "uwc-max-4.jpg"
                         }
                     ]
                 },
@@ -452,7 +458,7 @@ module.exports = {
         },
         {
             name: "基督教香港信义会元朗信义中学",
-            image: "https://www.ieduchina.com/uploadfile/college/202401/1704353550.jpg",
+            image: "https://www.ieduchina.com/topic/2024/hk8/images/af6a1a94.png",
             link: "https://schoollist.ieduchina.com/school/evangel/",
             islink: true,
         },
