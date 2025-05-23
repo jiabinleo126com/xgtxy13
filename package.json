@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "国际教育网官网",
   "config": {
-    "project": "index,wap"
+    "project": "index"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server",

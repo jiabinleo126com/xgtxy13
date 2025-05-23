@@ -33,6 +33,13 @@ $(document).on("click", ".close-img-mask", function () {
   $(".img-mask").removeClass("show");
   $(".img-mask img").attr("src", "");
 });
+$(".img-mask").on("click", function (e) {
+  console.log(e.target);
+  if(e.target == this) {
+    $(this).removeClass("show");
+    $(".img-mask img").attr("src", "");
+  }
+})
 $(".arr").on("click", "span", function () {
   let img: any = "";
   $(".img-mask img").attr("src", "");
