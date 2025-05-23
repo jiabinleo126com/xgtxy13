@@ -3,40 +3,41 @@
   <%=require(`@cs/bar-title/index.ejs`)()%>
     <div class="bar-header">
       <div class="logo">
-        <a href="/">
-          <img src="<%=require(`@common/images/logo.png`)%>">
+        <a href="//www.ieduchina.com">
+          <img src="//www.ieduchina.com/statics/pcc/img/logo_header.png?v=1" alt="国际教育网">
         </a>
       </div>
       <div class="search-box">
-        <form action="/searchlist.html" method="get" id="search">
-          <input id="q" class="search-content" name="qsearchkey" type="text" value="" placeholder="搜索 学校/文章/机构">
+        <form action="//www.ieduchina.com/search/index.html" method="get" id="search">
+          <input id="q" class="search-content" name="searchkey" placeholder="搜索 学校/文章/机构" type="text" value="">
           <button id="searchbtn" class="search-submit" type="submit">
-            <img src="<%=require(`./images/search1.png`)%>">
+            <img src="//www.ieduchina.com/statics/pcc/img/search1.png?v=1">
             搜索
           </button>
-          <a href="">高级搜索</a>
         </form>
       </div>
       <div class="tel">
-        <a href="tel:4009008516">400-900-8516</a>
+        <a>内地：400-900-8516<br>香港：+852 3565 1936</a>
       </div>
     </div>
     <div class="iedu-menu-wrap">
       <div class="iedu-menu-box">
         <ul class="iedu-menu">
           <li>
-            <a href="//www.ieduchina.com/"><span>首页</span></a>
+            <a href="//www.ieduchina.com"><span>首页</span></a>
           </li>
           <li class="parentMenu">
             <a href="//www.ieduchina.com/school/index.html"><span>教育资讯</span></a>
-            <ul class="submenu" style="display: none;">
+            <ul class="submenu">
               <li><a href="//www.ieduchina.com/school/index.html"><span>校园资讯</span></a></li>
               <li><a href="//www.ieduchina.com/abroad/index.html"><span>留学资讯</span></a></li>
+              <li><a href="//www.ieduchina.com/parents/"><span>家庭教育</span></a></li>
+              <li><a href="//www.ieduchina.com/zt/"><span>教育综合</span></a></li>
             </ul>
           </li>
           <li class="parentMenu">
             <a href="//schoollist.ieduchina.com"><span>学校大全</span></a>
-            <ul class="submenu" style="display: none;">
+            <ul class="submenu">
               <li><a href="//schoollist.ieduchina.com"><span>内地学校</span></a></li>
               <li><a href="//www.ieduchina.com/hongkong/" target="_blank"><span>香港学校</span></a></li>
               <li><a href="//www.ieduchina.com/singapore/index.html" target="_blank"><span>新加坡学校</span></a></li>
@@ -50,14 +51,15 @@
           <li class="parentMenu">
             <a href="//www.ieduchina.com/zwhb/"><span>合办大学</span></a>
             <ul class="submenu" style="display: none;">
-              <a href="//www.ieduchina.com/zwhb/"><span>中外合办大学</span></a>
+              <li><a href="//www.ieduchina.com/zwhb/"><span>中外合办大学</span></a></li>
               <li><a href="//www.ieduchina.com/gwhb/"><span>港外合办大学</span></a></li>
+              <li><a href="//www.ieduchina.com/xwhb/"><span>新外合办大学</span></a></li>
             </ul>
           </li>
           <li class="parentMenu">
             <a href="//www.ieduchina.com/huodong/"><span>学校活动</span></a>
             <ul class="submenu" style="display: none;">
-              <li><a href="//www.ieduchina.com/huodong/?type=9"><span>家长学院</span></a></li>
+              <!-- <li><a href="//www.ieduchina.com/huodong/?type=9"><span>家长学院</span></a></li> -->
               <li><a href="//www.ieduchina.com/huodong/?type=6"><span>学校开放日</span></a></li>
               <li>
                 <a href="//www.ieduchina.com/topic/2024/hk7/" target="_blank"><span><img
@@ -66,10 +68,9 @@
                 <div class="box">
                   <div class="box_lis">
                     <div class="box_con">
-                      <a href="" title="香港教育文化之旅"
+                      <a href="//www.ieduchina.com/topic/2025/hk12/" title="香港教育文化之旅"
                         target="_blank">25年01月:中华基金中学、迦密爱礼信中学等7所学校</a>
-                      <a href="//www.ieduchina.com/topic/2025/hkyy10/" title="香港教育文化之旅"
-                        target="_blank">25年01月:汇基书院（东九龙）、沙田培英中学等6所学校</a>
+                      <!-- <a href="//www.ieduchina.com/topic/2025/hkyy10/" title="香港教育文化之旅" target="_blank">25年01月汇基书院（东九龙）、沙田培英中学等6所学校</a> -->
                       <a href="//www.ieduchina.com/topic/2024/hk11/" title="香港教育文化之旅"
                         target="_blank">24年12月:元朗公立中学校友会邓英业小学等5所学校</a>
                       <a href="//www.ieduchina.com/topic/2024/hk8/" title="香港教育文化之旅"
@@ -99,6 +100,7 @@
                 <div class="box" style="padding-top: 12px;">
                   <div class="box_lis" style="max-height: 486px;">
                     <div class="box_con center">
+                      <a href="//www.ieduchina.com/topic/2025/sz/index.html" rel="nofollow" target="_blank">2025年05月</a>
                       <a href="//www.ieduchina.com/topic/2024/sz/index.html" rel="nofollow" target="_blank">2024年10月</a>
                       <a href="//www.ieduchina.com/topic/2024/shenzhen/index.html" rel="nofollow"
                         target="_blank">2024年03月</a>
@@ -130,6 +132,19 @@
               </li>
             </ul>
           </li>
+          <!-- <li class="parentMenu">
+                    <a href="//www.ieduchina.com/topic/shengxuefuwu/"><span>升学指南<img src="//www.ieduchina.com/statics/pcc/img/11d86433.png" style="vertical-align: -1px;"></span></a>
+                    <ul class="submenu">
+                        <li><a href="//www.ieduchina.com/index.php?m=content&c=look&a=index" rel="nofollow"><span>DSE升学-英语须知</span></a></li>
+                        <li><a href="//www.ieduchina.com/index.php?m=content&c=look&a=liankao" rel="nofollow"><span>联考升学</span></a></li>
+                        <li><a href="//www.ieduchina.com/index.php?m=content&c=look&a=zwhb" rel="nofollow"><span>中外合办 S11升学指南</span></a></li>
+                        <li><a href="//www.ieduchina.com/index.php?m=content&c=look&a=xjp" rel="nofollow"><span>快捷本科升学</span></a></li>
+                        <li><a href="//www.ieduchina.com/index.php?m=content&c=look&a=gct" rel="nofollow"><span>香港身份优才指南</span></a></li>
+                        <li><a href="//www.ieduchina.com/index.php?m=content&c=look&a=dse" rel="nofollow">内地高校招收DSE指南</a></li>
+                        <li><a href="https://www.eeagd.edu.cn/lzks/main.jsp" target="_blank" rel="nofollow">联考(港澳台侨)</a></li>
+                        <li><a href="https://www.jupas.edu.hk/tc/eligibility/#eligible" target="_blank" rel="nofollow">JUPAS大學聯招辦法</a></li>
+                    </ul>
+                </li> -->
           <li class="parentMenu">
             <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow"><span>备考学习</span></a>
             <ul class="submenu" style="display: none;">
@@ -171,17 +186,6 @@
                       <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">美国AMC</a>
                       <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">澳洲AMC</a>
                       <a href="//www.ieduchina.com/xuexi/index.html?tgfrom=guanwang" rel="nofollow">袋鼠数学竞赛</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <a rel="nofollow"><span>AI学习资源</span></a>
-                <div class="box">
-                  <div class="box_lis">
-                    <div class="box_con">
-                      <a href="https://www.thenational.academy/" rel="nofollow">oak national academy</a>
-                      <a href="https://www.littlewandlelettersandsounds.org.uk/" rel="nofollow">Letters and Sounds</a>
                     </div>
                   </div>
                 </div>

@@ -10,26 +10,26 @@ module.exports = {
         ]
     },
     liangdian: [
-        "獨家定制香港升學探訪團，深入體驗香港十所顶尖中學",
-        "路線覆蓋香港核心教育區，一站式領略名校采",
-        "名師带隊講解，深度解析學校特色與教學理念",
-        "校長老師全程相伴導覽，探索校園細節，鮑覽校光",
-        "校長親授普通話升學講座，精准对接香港教育體系",
-        "前瞻佈局擇校规劃藍圖，量身定做個性化升學路径"
+        "独家定制香港升学探访团，深入体验香港十所顶尖中学",
+        "路线覆盖香港核心教育区，一站式领略名校采",
+        "名师带队讲解，深度解析学校特色与教学理念",
+        "校长老师全程相伴导览，探索校园细节，鲍览校光",
+        "校长亲授普通话升学讲座，精准对接香港教育体系",
+        "前瞻布局择校规划蓝图，量身定做个性化升学路径"
     ],
     xingcheng1: [
         {
             date: [2025, "05", "02"],
             list: [
                 {
-                    time: "07:40-08:00",
-                    title: "集合",
+                    time: "07:40",
+                    title: "香港校区集合(香港尖沙咀港景汇商场)",
                     title_link: "",
                     images: []
                 },
                 {
                     time: "08:10-08:50",
-                    title: "从龙堡国际宾馆出发",
+                    title: "交通",
                     title_link: "",
                     images: []
                 },
@@ -182,13 +182,13 @@ module.exports = {
             list: [
                 {
                     time: "07:40",
-                    title: "集合",
+                    title: "香港校区集合(香港尖沙咀港景汇商场)",
                     title_link: "",
                     images: []
                 },
                 {
-                    time: "08:10",
-                    title: "出发",
+                    time: "08:10-08:50",
+                    title: "交通",
                     title_link: "",
                     images: []
                 },
@@ -280,7 +280,7 @@ module.exports = {
             date: [2025, "05", "02"],
             list: [
                 {
-                    time: "07:40-08:00",
+                    time: "07:40",
                     title: "香港校区集合(香港尖沙咀港景汇商场)",
                     title_link: "",
                     images: []
@@ -440,63 +440,63 @@ module.exports = {
     school: [
         {
             name: "可风中学(啬色园主办)",
-            image: "https://www.ieduchina.com/uploadfile/college/202309/1695808686.jpg",
-            link: "https://schoollist.ieduchina.com/school/cfss/",
-            islink: true
+            image: "可风中学",
+            link: "https://schoollist.ieduchina.com/school/hofung/",
+            islink: false
         },
         {
             name: "世界龙冈学校刘皇发中学",
-            image: "https://zhaosheng.ieduchina.com/Upload/File/202402/65c1cbccbbee0.jpg",
-            link: "https://schoollist.ieduchina.com/school/tmcss/",
-            islink: true
+            image: "世界龙冈学校刘皇发中学",
+            link: "https://schoollist.ieduchina.com/school/lwfsshk/",
+            islink: false
         },
         {
             name: "屯门天主教中学",
-            image: "https://www.ieduchina.com/uploadfile/college/202310/1698053489.jpg",
-            link: "https://schoollist.ieduchina.com/school/pyc/",
+            image: "https://zhaosheng.ieduchina.com/Upload/File/202402/65c1cbccbbee0.jpg",
+            link: "https://schoollist.ieduchina.com/school/tmcss/",
             islink: true
         },
         {
             name: "基督教香港信义会元朗信义中学",
             image: "https://www.ieduchina.com/topic/2024/hk8/images/af6a1a94.png",
-            link: "https://schoollist.ieduchina.com/school/evangel/",
+            link: "https://schoollist.ieduchina.com/school/yllhk/",
             islink: true,
         },
         {
             name: "九龙塘学校(中学部)",
-            image: "https://www.ieduchina.com/uploadfile/college/202310/1697439246.jpg",
-            link: "https://schoollist.ieduchina.com/school/uccke/",
-            islink: true,
+            image: "九龙塘学校(中学部)",
+            link: "https://schoollist.ieduchina.com/school/ktssshk/",
+            islink: false,
         },
         {
             name: "中华基督教会基道中学",
-            image: "https://www.ieduchina.com/uploadfile/college/202309/1695808686.jpg",
-            link: "https://schoollist.ieduchina.com/school/cfss/",
-            islink: true
+            image: "中华基督教会基道中学",
+            link: "https://schoollist.ieduchina.com/school/ccckeitohk/",
+            islink: false
         },
         {
             name: "香港德思齐加拿大国际学校",
-            image: "https://zhaosheng.ieduchina.com/Upload/File/202402/65c1cbccbbee0.jpg",
-            link: "https://schoollist.ieduchina.com/school/tmcss/",
-            islink: true
+            image: "香港德思齐加拿大国际学校",
+            link: "https://schoollist.ieduchina.com/school/xgdlyjnd/",
+            islink: false
         },
         {
             name: "播道书院",
-            image: "https://www.ieduchina.com/uploadfile/college/202401/1704353550.jpg",
+            image: "播道书院",
             link: "https://schoollist.ieduchina.com/school/evangel/",
-            islink: true,
+            islink: false,
         },
         {
             name: "香港苏浙公学国际部",
-            image: "https://www.ieduchina.com/uploadfile/college/202401/1704353550.jpg",
-            link: "https://schoollist.ieduchina.com/school/evangel/",
-            islink: true,
+            image: "香港苏浙公学国际部",
+            link: "https://schoollist.ieduchina.com/school/szgxgjb/",
+            islink: false,
         },
         {
             name: "UWC李宝椿联合世界书院",
-            image: "https://www.ieduchina.com/uploadfile/college/202310/1697439246.jpg",
-            link: "https://schoollist.ieduchina.com/school/uccke/",
-            islink: true,
+            image: "UWC李宝椿联合世界书院",
+            link: "https://schoollist.ieduchina.com/school/lpcuwc/",
+            islink: false,
         }
     ]
 }
